@@ -1,4 +1,4 @@
 ## Moon Cycles
 
 ERD
-![alt text](./src/images/moon-cycle-ERD.jpeg "Moon Cycle ERD")
+![alt text](./src/images/moon-cycle-ERD.png "Moon Cycle ERD")
