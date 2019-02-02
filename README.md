@@ -1,5 +1,8 @@
 ## Moon Cycles
 
+## Style Guide
+![alt text](./src/images/moon_cycle_style_guide.png "Moon Cycle Style Guide")
+
 ## ERD
 ![alt text](./src/images/moon-cycle-ERD.png "Moon Cycle ERD")
 
