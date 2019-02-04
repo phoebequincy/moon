@@ -8,14 +8,12 @@ export default class Card extends React.Component {
     return (
 
       <Modal
-        header='Modal Header'
+        header={this.props.phase.title}
         trigger={<Button>{this.props.phase.title}</Button>}>
 
         <Collapsible>
 
-          <CollapsibleItem header={this.props.phase.title} icon='filter_drama'>
-            {this.props.phase.title}
-          </CollapsibleItem>
+
 
           <CollapsibleItem header={this.props.phase.phase} icon='place'>
               {this.props.phase.description}
