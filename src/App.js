@@ -1,30 +1,27 @@
-import React, { Component } from 'react'
-import './App.css'
-import Header from './components/header'
-import Footer from './components/footer'
+import React, { Component } from 'react';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
+
 
 class App extends Component {
-
-  
-
     render() {
-    return (
-      <div className="App">
-        <div className="container-fluid">
-          <div>
-            <Header
+        return (
+            <div className="App Site">
+                <div className="Site-content">
+                  <div className="App-header">
+                    <Header
 
-            />
-          </div>
-          <div>
-            <Footer
+                    />
+                  </div>
 
-            />
-          </div>
-        </div>
-      </div>
-    );
-  }
+                </div>
+                  <Footer
+                    copyright={2019}
+                  />
+            </div>
+
+        );
+    }
 }
-
-export default App
+export default App;

@@ -1,18 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
+import'../App.css';
 
-class Footer extends Component {
+const Footer = (props) => {
 
-
-
-    render() {
-        return (
-          <nav>
-            <div className="nav-wrapper #fafafa grey lighten-5">
-              <a href="#" className="brand-logo main-font black-text m-l"></a>
-            </div>
-          </nav>
-        )
-    }
+  return (
+    <nav className="navbar-fixed">
+      <div className="container">
+        <a className="navbar-brand grey-text text-darken-5" href="#">&copy; {props.copyright}</a>
+      </div>
+    </nav>
+  )
 }
+
 
 export default Footer;
