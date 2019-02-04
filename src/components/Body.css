@@ -1,0 +1,16 @@
+body {
+  color: #213841;
+}
+
+#row1, #row2, #row3, #row4, #row5 {
+  line-height:8rem;
+}
+
+.moonImage {
+  vertical-align: bottom;
+}
+
+/* #row1 p {
+  text-align: center !important;
+
+} */
