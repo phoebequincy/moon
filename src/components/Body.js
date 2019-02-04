@@ -1,25 +1,28 @@
 import React, { Component } from 'react'
 import './Body.css'
+import './Background.css'
+
 
 
 class Body extends Component {
   render() {
     return (
       <div>
+      <div className="bodyDiv">
         <div className="container">
           <div id="row1" className="row valign-wrapper">
-            <div id="block1" className="col l2 offset-l5 teal center-align ">
+            <div id="block1" className="col l2 offset-l5 center-align ">
               <img className="moonImage" src="images/full.png" />
             </div>
           </div>
           <div id="row2" className="row">
             <div className="col l3"></div>
-            <div id="block2" className="col l2 teal center-align">
-              <p>block 2</p>
+            <div id="block2" className="col l2 center-align">
+              <img className="moonImage" src="images/waxing-gibbous.png" />
             </div>
             <div className="col l2"></div>
-            <div id="block3" className="col l2 teal center-align">
-              <p>block 3</p>
+            <div id="block3" className="col l2 center-align">
+              <img className="moonImage" src="images/waning-gibbous.png" />
             </div>
             <div className="col l3"></div>
           </div>
@@ -54,6 +57,9 @@ class Body extends Component {
             </div>
           </div>
         </div>
+        </div>
+        <div className="stars"></div>
+        <div className="twinkling"></div>
       </div>
     )
   }
