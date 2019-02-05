@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Background from './components/Background'
 import Body from './components/Body'
 import './App.css'
 import CardContent from './components/CardContent.js'
