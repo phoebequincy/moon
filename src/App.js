@@ -20,7 +20,7 @@ class App extends Component {
       <div className="App">
        <Header/>
        <Body/>
-        <CardContent
+       <CardContent
         phases={this.state.phases}
         />
         <Footer copyright={2019}/>

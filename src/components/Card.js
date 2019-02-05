@@ -12,9 +12,6 @@ export default class Card extends React.Component {
         trigger={<Button>{this.props.phase.title}</Button>}>
 
         <Collapsible>
-
-
-
           <CollapsibleItem header={this.props.phase.phase} icon='place'>
               {this.props.phase.description}
           </CollapsibleItem>
@@ -30,6 +27,7 @@ export default class Card extends React.Component {
         </Collapsible>
 
       </Modal>
+      
      )
    }
 }
