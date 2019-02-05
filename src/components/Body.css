@@ -2,17 +2,79 @@
 
 /* hover color overlay */
 
-.circle-container a:hover span.overlay {
+.circle-container a:hover span.overlay-pink, .circle-container a:hover span.overlay-blue, .circle-container a:hover span.overlay-green, .circle-container a:hover span.overlay-seafoam, .circle-container a:hover span.overlay-coral, .circle-container a:hover span.overlay-lavendar, .circle-container a:hover span.overlay-berry, .circle-container a:hover span.overlay-red {
   display:block;
 }
+span.overlay-red{
+background: rgba(179, 66, 68, 0.7);
+display: none;
+position: relative;
+width: 5em; height: 5em;
+border-radius: 50%;
+bottom: 5em;
+}
 
-span.overlay {
+span.overlay-berry{
+background: rgba(119, 62, 98, 0.7);
+display: none;
+position: relative;
+width: 5em; height: 5em;
+border-radius: 50%;
+bottom: 5em;
+}
+
+span.overlay-lavendar{
+background: rgba(193, 154, 183, 0.7);
+display: none;
+position: relative;
+width: 5em; height: 5em;
+border-radius: 50%;
+bottom: 5em;
+}
+
+span.overlay-coral{
+background: rgba(188, 111, 98, 0.7);
+display: none;
+position: relative;
+width: 5em; height: 5em;
+border-radius: 50%;
+bottom: 5em;
+}
+
+span.overlay-seafoam{
+background: rgba(192, 224, 207, 0.7);
+display: none;
+position: relative;
+width: 5em; height: 5em;
+border-radius: 50%;
+bottom: 5em;
+}
+
+span.overlay-pink{
 background: rgba(155, 112, 125, 0.7);
 display: none;
 position: relative;
-width: 4em; height: 4em;
+width: 5em; height: 5em;
 border-radius: 50%;
-bottom: 4em;
+bottom: 5em;
+}
+
+span.overlay-blue{
+  background: rgba(33, 56, 67, 0.7);
+  display: none;
+  position: relative;
+  width: 5em; height: 5em;
+  border-radius: 50%;
+  bottom: 5em;
+}
+
+span.overlay-green{
+  background: rgba(102, 155, 149, 0.7);
+  display: none;
+  position: relative;
+  width: 5em; height: 5em;
+  border-radius: 50%;
+  bottom: 5em;
 }
 
 
@@ -20,11 +82,11 @@ bottom: 4em;
 
 .circle-container {
     position: relative;
-    width: 24em;
-    height: 24em;
-    padding: 2.8em;
+    width: 26em;
+    height: 26em;
+    padding: 3em;
     /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
-    border: solid 2px;
+    border: solid 1px;
     border-color: #9B707D;
     border-radius: 50%;
     margin: 1.75em auto 0;
@@ -34,17 +96,17 @@ bottom: 4em;
     display: block;
     position: absolute;
     top: 50%; left: 50%;
-    width: 4em; height: 4em;
-    margin: -2em;
+    width: 5em; height: 5em;
+    margin: -2.5em;
     z-index:1;
 }
 
-.circle-container img { display: block; width: 100%; }
-.deg0 { transform: translate(12em); } /* 12em = half the width of the wrapper */
-.deg45 { transform: rotate(45deg) translate(12em) rotate(-45deg); }
-.deg90 { transform: rotate(90deg) translate(12em) rotate(-90deg); }
-.deg135 { transform: rotate(135deg) translate(12em) rotate(-135deg); }
-.deg180 { transform: translate(-12em); }
-.deg225 { transform: rotate(225deg) translate(12em) rotate(-225deg); }
-.deg270 { transform: rotate(270deg) translate(12em) rotate(-270deg); }
-.deg315 { transform: rotate(315deg) translate(12em) rotate(-315deg); }
+.circle-container img { display: block; width: 100%; height: 100%; }
+.deg0 { transform: translate(13em); } /* 12em = half the width of the wrapper */
+.deg45 { transform: rotate(45deg) translate(13em) rotate(-45deg); }
+.deg90 { transform: rotate(90deg) translate(13em) rotate(-90deg); }
+.deg135 { transform: rotate(135deg) translate(13em) rotate(-135deg); }
+.deg180 { transform: translate(-13em); }
+.deg225 { transform: rotate(225deg) translate(13em) rotate(-225deg); }
+.deg270 { transform: rotate(270deg) translate(13em) rotate(-270deg); }
+.deg315 { transform: rotate(315deg) translate(13em) rotate(-315deg); }
