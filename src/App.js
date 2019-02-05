@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+import React, { Component } from 'react';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
+
+
+class App extends Component {
+    render() {
+        return (
+            <div className="App Site">
+                <div className="Site-content">
+                  <div className="App-header">
+                    <Header
+=======
 import React, { Component } from 'react'
 import Body from './components/Body'
 import './App.css'
@@ -26,5 +41,18 @@ class App extends Component {
     )
   }
 }
+>>>>>>> 8448c541bbb14436a61f98b01c9e5461b7e66f2c
 
-export default App
+                    />
+                  </div>
+
+                </div>
+                  <Footer
+                    copyright={2019}
+                  />
+            </div>
+
+        );
+    }
+}
+export default App;
