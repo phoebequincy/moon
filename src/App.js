@@ -9,18 +9,20 @@ class App extends Component {
 
   state = {phases:[]}
 
-  // async componentDidMount() {
-  //     const response = await fetch('http://localhost:3000/phases',{mode: 'cors'})
-  //     const json = await response.json()
-  //     this.setState({ phases:json })
-  // }
+  async componentDidMount() {
+      const response = await fetch('http://localhost:3000/phases',{mode: 'cors'})
+      const json = await response.json()
+      this.setState({ phases:json })
+  }
 
   render() {
     return (
       <div className="App">
-        <Header/>
-        <Body/>
-        <CardContent phases={this.state.phases} />
+       <Header/>
+       <Body/>
+        <CardContent
+        phases={this.state.phases}
+        />
         <Footer copyright={2019}/>
 
       </div>
