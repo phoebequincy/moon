@@ -1,7 +1,11 @@
-<<<<<<< HEAD
+
 import React, { Component } from 'react';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import React, { Component } from 'react'
+import Body from './components/Body'
+import './App.css'
+import CardContent from './components/CardContent.js'
 
 
 
@@ -12,11 +16,8 @@ class App extends Component {
                 <div className="Site-content">
                   <div className="App-header">
                     <Header
-=======
-import React, { Component } from 'react'
-import Body from './components/Body'
-import './App.css'
-import CardContent from './components/CardContent.js'
+
+
 
 class App extends Component {
 
