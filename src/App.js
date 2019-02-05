@@ -24,7 +24,6 @@ class App extends Component {
         phases={this.state.phases}
         />
         <Footer copyright={2019}/>
-
       </div>
     )}
 
