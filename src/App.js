@@ -16,11 +16,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-
             <Body />
-
+            
             <CardContent
             phases ={this.state.phases}
+
             />
       </div>
     )
