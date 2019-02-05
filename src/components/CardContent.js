@@ -10,6 +10,7 @@ export default class CardContent extends React.Component {
         <Card
         key = {phase.id}
         phase = {phase}
+        decscription = {phase.description}
         />
       )}
     </div>
