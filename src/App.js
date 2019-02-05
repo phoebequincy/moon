@@ -1,7 +1,9 @@
-import React, { Component } from 'react'
-import Body from './components/Body'
-import './App.css'
-import CardContent from './components/CardContent.js'
+import React, { Component } from 'react';
+import Body from './components/Body';
+import './App.css';
+import CardContent from './components/CardContent.js';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 class App extends Component {
 
@@ -16,14 +18,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-            <Body />
-            <CardContent
-            phases ={this.state.phases}
+       <Header/>
+       <Body/>
+        <CardContent
+        phases={this.state.phases}
+        />
+        <Footer copyright={2019}/>
 
-            />
       </div>
-    )
-  }
-}
+    )}
 
-export default App
+
+}
+export default App;
