@@ -162,3 +162,8 @@ span.overlay-green{
   position: relative;
   z-index: 2;
 }
+
+.cards {
+  position: relative;
+  z-index: 3;
+}

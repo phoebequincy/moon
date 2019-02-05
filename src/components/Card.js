@@ -9,6 +9,8 @@ export default class Card extends React.Component {
 
       <Modal
         header={this.props.phase.title}
+        trigger={<a href='#' className='deg0'><img src='images/waxing-quarter.svg' /><span className="overlay-pink"></span></a>}
+
         trigger={<Button>{this.props.phase.title}</Button>}>
 
         <Collapsible>
