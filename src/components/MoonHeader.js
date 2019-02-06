@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../App.css'
+import '../MoonHeader.css'
 import {Navbar, NavItem, Icon} from 'react-materialize'
 import Image from "../Images/moon-cycle-logo-pink.png"
 
