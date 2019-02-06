@@ -19,20 +19,17 @@ export default class Card extends React.Component {
 
         id = {this.idString()}>
 
-
-
-
         <Collapsible>
 
-          <CollapsibleItem className='active' header={this.props.phase.phase} icon='place'>
+          <CollapsibleItem className='active' header={this.props.phase.phase} icon='brightness_1'>
               {this.props.phase.description}
           </CollapsibleItem>
 
-          <CollapsibleItem header='Symptomatic Experience' icon='whatshot'>
+          <CollapsibleItem header='Symptomatic Experience' icon='brightness_2'>
             {this.props.phase.symptomatic_experience}
           </CollapsibleItem>
 
-          <CollapsibleItem header='Mindful Ways' icon='whatshot'>
+          <CollapsibleItem header='Mindful Ways' icon='brightness_3'>
 
             {this.props.phase.mindful_ways}
           </CollapsibleItem>
