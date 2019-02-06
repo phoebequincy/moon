@@ -40,7 +40,7 @@ class App extends Component {
         {/*<CardContent
         phases={this.state.phases}*/}
         />
-        <Footer copyright={2019}/>
+        {/*}<Footer copyright={2019}/>*/}
       </div>
     )}
 

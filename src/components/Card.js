@@ -4,6 +4,12 @@ import {Button, Modal, Collapsible, CollapsibleItem} from 'react-materialize'
 
 export default class Card extends React.Component {
 
+  idString = () => {
+    this.props.phase.id.toString()
+  }
+
+
+
   render(){
     return (
 
@@ -11,7 +17,9 @@ export default class Card extends React.Component {
         header={this.props.phase.title}
         trigger={<a href='#' className={this.props.phase.class}><img src={this.props.phase.img} /><span className={this.props.phase.overlay}></span></a>}
 
-        id={this.props.phase.id}>
+        id = {this.idString()}>
+
+
 
 
         <Collapsible>

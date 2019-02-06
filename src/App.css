@@ -1,6 +1,10 @@
 
 
 nav {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
   padding-left: 2em;
+}
+
+.login {
+  background-color: transparent;
 }
