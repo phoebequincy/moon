@@ -20,9 +20,6 @@ class Body extends Component {
               )}
 
 
-
-
-
               {/*
               <a href='#' className='deg45 '><img src='images/waxing-crescent.svg' /><span className="overlay-blue"></span></a>
 
