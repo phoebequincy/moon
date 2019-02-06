@@ -9,92 +9,90 @@ span.overlay-red{
 background: rgba(179, 66, 68, 0.7);
 display: none;
 position: relative;
-width: 5em; height: 5em;
+width: 7em; height: 7em;
 border-radius: 50%;
-bottom: 5em;
+bottom: 7em;
 }
 
 span.overlay-berry{
 background: rgba(119, 62, 98, 0.7);
 display: none;
 position: relative;
-width: 5em; height: 5em;
+width: 7em; height: 7em;
 border-radius: 50%;
-bottom: 5em;
+bottom: 7em;
 }
 
 span.overlay-lavendar{
 background: rgba(193, 154, 183, 0.7);
 display: none;
 position: relative;
-width: 5em; height: 5em;
+width: 7em; height: 7em;
 border-radius: 50%;
-bottom: 5em;
+bottom: 7em;
 }
 
 span.overlay-coral{
 background: rgba(188, 111, 98, 0.7);
 display: none;
 position: relative;
-width: 5em; height: 5em;
+width: 7em; height: 7em;
 border-radius: 50%;
-bottom: 5em;
+bottom: 7em;
 }
 
 span.overlay-seafoam{
 background: rgba(192, 224, 207, 0.7);
 display: none;
 position: relative;
-width: 5em; height: 5em;
+width: 7em; height: 7em;
 border-radius: 50%;
-bottom: 5em;
+bottom: 7em;
 }
 
 span.overlay-pink{
 background: rgba(155, 112, 125, 0.7);
 display: none;
 position: relative;
-width: 5em; height: 5em;
+width: 7em; height: 7em;
 border-radius: 50%;
-bottom: 5em;
+bottom: 7em;
 }
 
 span.overlay-blue{
   background: rgba(33, 56, 67, 0.7);
   display: none;
   position: relative;
-  width: 5em; height: 5em;
+  width: 7em; height: 7em;
   border-radius: 50%;
-  bottom: 5em;
+  bottom: 7em;
 }
 
 span.overlay-green{
   background: rgba(102, 155, 149, 0.7);
   display: none;
   position: relative;
-  width: 5em; height: 5em;
+  width: 7em; height: 7em;
   border-radius: 50%;
-  bottom: 5em;
+  bottom: 7em;
 }
 
 
 /* rendering moon links on the circle */
 
 .circle-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+
 
 }
 
 .circle-container {
   position: relative;
-  width: 32em;
-  height: 32em;
+  width: 34em;
+  height: 34em;
   padding: 4em;
   /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
-  border: solid 1px;
-  border-color: #000;
+  border: solid .25px;
+  border-color: #FF4374;
   border-radius: 50%;
   margin: 2em auto 0;
   margin-top: 5em;
@@ -104,20 +102,20 @@ span.overlay-green{
     display: block;
     position: absolute;
     top: 50%; left: 50%;
-    width: 6em; height: 6em;
+    width: 7em; height: 7em;
     margin: -3em;
     z-index:1;
 }
 
 .circle-container img { display: block; width: 100%; height: 100%; }
-.first-quarter { transform: translate(16em); } /* 12em = half the width of the wrapper */
-.waxing-gibbous { transform: rotate(45deg) translate(16em) rotate(-45deg); }
-.full-moon { transform: rotate(90deg) translate(16em) rotate(-90deg); }
-.waning-gibbous { transform: rotate(135deg) translate(16em) rotate(-135deg); }
-.last-quarter { transform: translate(-16em); }
-.waning-crescent { transform: rotate(225deg) translate(16em) rotate(-225deg); }
-.newmoon { transform: rotate(270deg) translate(16em) rotate(-270deg); }
-.waxing-crescent { transform: rotate(315deg) translate(16em) rotate(-315deg); }
+.first-quarter { transform: translate(17em); } /* 12em = half the width of the wrapper */
+.waxing-gibbous { transform: rotate(45deg) translate(17em) rotate(-45deg); }
+.full-moon { transform: rotate(90deg) translate(17em) rotate(-90deg); }
+.waning-gibbous { transform: rotate(135deg) translate(17em) rotate(-135deg); }
+.last-quarter { transform: translate(-17em); }
+.waning-crescent { transform: rotate(225deg) translate(17em) rotate(-225deg); }
+.newmoon { transform: rotate(270deg) translate(17em) rotate(-270deg); }
+.waxing-crescent { transform: rotate(315deg) translate(17em) rotate(-315deg); }
 
 
 /* twinkling background image */
