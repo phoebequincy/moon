@@ -9,24 +9,24 @@ export default class Card extends React.Component {
 
       <Modal
         header={this.props.phase.title}
-        trigger={<a href='#' className='deg0'><img src='images/waxing-quarter.svg' /><span className="overlay-pink"></span></a>}
+        trigger={<a href='#' className={this.props.phase.class}><img src={this.props.phase.img} /><span className={this.props.phase.overlay}></span></a>}
 
-        trigger={<Button>{this.props.phase.title}</Button>}>
+        id={this.props.phase.id}>
+
 
         <Collapsible>
 
-
-
-          <CollapsibleItem header={this.props.phase.phase} icon='place'>
+          <CollapsibleItem className='active' header={this.props.phase.phase} icon='place'>
               {this.props.phase.description}
           </CollapsibleItem>
 
-          <CollapsibleItem header='Description' icon='whatshot'>
-            {this.props.phase.description}
+          <CollapsibleItem header='Symptomatic Experience' icon='whatshot'>
+            {this.props.phase.symptomatic_experience}
           </CollapsibleItem>
 
-          <CollapsibleItem header='Symptomatic Experince' icon='whatshot'>
-            {this.props.phase.symptomatic_experience}
+          <CollapsibleItem header='Mindful Ways' icon='whatshot'>
+
+            {this.props.phase.mindful_ways}
           </CollapsibleItem>
 
         </Collapsible>
