@@ -36,7 +36,7 @@ state = {
     return (
       <div className="App">
         <MoonHeader
-
+        
         />
        <Body
         phases={this.state.phases}/>

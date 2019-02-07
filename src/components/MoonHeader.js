@@ -25,11 +25,12 @@ import Image from "../Navimages/moon-cycle-logo-white.png"
 
   render() {
 
-  var Img = <img src={Image}/>
+  var Img = <img src={Image} alt=""/>
+
 
 
       return (
-        <Navbar className="Nav-bar" brand={Img} right>
+        <Navbar className="Nav-bar head" brand={Img} right>
           <NavItem>Today's Moonphase: {this.state.currentMp.length>0? this.state.currentMp[0].Phase:null}</NavItem>
         </Navbar>
     )
