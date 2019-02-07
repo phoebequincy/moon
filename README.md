@@ -3,7 +3,7 @@
 Moon Cycle is a beautiful, inspiring and informative website about how the Moon’s Phases can be utilized to bring clarity, strength and purpose to your month. Moon Cycle blends traditional spiritual wisdom and modern health and wellness tips together for an aesthetically-pleasing and intriguing journey of discovery.
 
 ## Style Guide
-![alt text](public/images/moon_cycle_style_guide.png "Moon Cycle Style Guide")
+![alt text](/public/images/moon_cycle_style_guide.png "Moon Cycle Style Guide")
 
 
 ## Wireframe
