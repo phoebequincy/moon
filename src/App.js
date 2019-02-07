@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import './components/MoonHeader.css'
+import MoonHeader from './components/MoonHeader.js'
 import Body from './components/Body';
-import './App.css';
-// import CardContent from './components/CardContent.js';
-import Header from "./components/Header";
 import Footer from "./components/Footer";
+// import CardContent from './components/CardContent.js';
 
 class App extends Component {
 
-  state = {phases:[]}
-
+state = {
+  phases:[]
+}
   async componentDidMount() {
     // const classArray=['deg0','deg45','deg90','deg135','deg180','deg225', 'deg270', 'deg315' ]
     const classArray=['newmoon','waxing-crescent','first-quarter','waxing-gibbous','full-moon','waning-gibbous','last-quarter','waning-crescent']
@@ -34,16 +35,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-       <Header/>
+        <MoonHeader
+        
+        />
        <Body
         phases={this.state.phases}/>
         {/*<CardContent
-        phases={this.state.phases}*/}
-        />
+        phases={this.state.phases}/>*/}
+
         {/*}<Footer copyright={2019}/>*/}
       </div>
-    )}
-
-
+    );
+  }
 }
+
 export default App;
