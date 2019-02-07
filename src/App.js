@@ -18,7 +18,7 @@ state = {
 
     const spanClass = ['overlay-pink','overlay-blue','overlay-green','overlay-seafoam','overlay-coral','overlay-red','overlay-berry','overlay-lavendar']
 
-      const response = await fetch('http://localhost:3000/phases',{mode: 'cors'})
+      const response = await fetch('https://moon-cycles-api.herokuapp.com/phases',{mode: 'cors'})
       const json = await response.json()
       let data = json.map((phase,i) => {
         return {
@@ -36,7 +36,7 @@ state = {
     return (
       <div className="App">
         <MoonHeader
-        
+
         />
        <Body
         phases={this.state.phases}/>
