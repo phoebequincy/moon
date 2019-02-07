@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-import '../MoonHeader.css'
-import {Navbar, NavItem, Icon} from 'react-materialize'
-import Image from "../Images/moon-cycle-logo-pink.png"
-
+import {Navbar, NavItem} from 'react-materialize'
+import './MoonHeader.css'
+import Image from "../Navimages/moon-cycle-logo-pink.png"
 
   class MoonHeader extends Component {
 
